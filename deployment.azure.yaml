@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: angular 
-        image: vishalgpt19/angular-app:#{Build.BuildId}#
+        image: vishalgpt19/angular-apps:#{Build.BuildId}#
         ports: 
         - containerPort: 80 
 --- 
